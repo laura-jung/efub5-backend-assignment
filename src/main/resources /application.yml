@@ -1,6 +1,6 @@
 spring:
   application:
-    name: blog
+    name: community
 
   datasource:
     url: jdbc:mysql://${RDS_IP}:3306/community?useSSL=false&useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
